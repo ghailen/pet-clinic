@@ -44,7 +44,7 @@
 
     <scm>
         <developerConnection>
-            scm:git:ssh@github.com:ghailen/pet-clinic.git
+            scm:git:git@github.com:ghailen/pet-clinic.git
         </developerConnection>
         <tag>pet-clinic-1.0.3</tag>
     </scm>
