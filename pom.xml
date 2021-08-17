@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.ghailen</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
     <name>pet-clinic</name>
     <description>pet clinic application</description>
     <properties>
@@ -46,7 +46,7 @@
         <developerConnection>
             scm:git:git@github.com:ghailen/pet-clinic.git
         </developerConnection>
-        <tag>HEAD</tag>
+        <tag>pet-clinic-1.0.3</tag>
     </scm>
 
 
