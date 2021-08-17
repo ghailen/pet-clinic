@@ -23,12 +23,6 @@
    <!-- <dependencies>
 
     </dependencies>-->
-    <scm>
-        <developerConnection>
-            scm:git:git@github.com:ghailen/pet-clinic.git
-        </developerConnection>
-      <tag>pet-clinic-1.1</tag>
-  </scm>
 
     <build>
         <plugins>
@@ -41,12 +35,19 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
 
     </build>
 
+    <scm>
+        <developerConnection>
+            scm:git:git@github.com:ghailen/pet-clinic.git
+        </developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 
 
 </project>
