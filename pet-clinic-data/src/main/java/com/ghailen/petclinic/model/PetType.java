@@ -3,7 +3,7 @@ package com.ghailen.petclinic.model;
 /**
  * The type Pet type.
  */
-public class PetType {
+public class PetType extends BaseEntity{
 
 private String name;
 
