@@ -1,7 +1,6 @@
 package com.ghailen.petclinic.services.map;
 
 import com.ghailen.petclinic.model.Owner;
-import com.ghailen.petclinic.services.CrudService;
 import com.ghailen.petclinic.services.OwnerService;
 import org.springframework.stereotype.Service;
 
