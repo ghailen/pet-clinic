@@ -2,6 +2,8 @@ package com.ghailen.petclinic.model;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name="pets")
@@ -19,6 +21,9 @@ public class Pet extends BaseEntity {
 
     @Column(name="birth_date")
     private LocalDate birthDate;
+
+    @OneToMany(cascade = CascadeType.ALL,mappedBy = "pet")
+    private Set<Visit> visitSet = new HashSet<>();
 
     public String getName() {
         return name;
